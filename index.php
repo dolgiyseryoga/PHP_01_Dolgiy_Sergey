@@ -8,7 +8,6 @@
 </head>
 
 <body>
-
     <?php
     echo '<hr>', '<strong style="color: green">1 Zadacha</strong>', '<br/>';
     $a = 10;
@@ -21,9 +20,7 @@
     $x = 2;
     $y = 6;
     $z = 9;
-
     $c = ($x + 1) * 4 - 2 * ($z - 2 * $x ** 2 + $y ** 2);
-
     echo '<br/>', '(x+1)4-2(z-2x*2+y*2)=', $c, '<br/>';
     //
     echo '<hr>', '<strong style="color: green">3 Zadacha</strong>', '<br/>';
@@ -47,7 +44,6 @@
     $num = '12345';
     $sum = $num[0] + $num[1] + $num[2] + $num[3] + $num[4];
     echo '<br/>' . 'Сумма чисел 12345 = ' . $sum;
-
     ?>
 
     <?php
@@ -115,13 +111,20 @@
 
     $result = $n + $nn + $nnn + $nnnn + $nnnnn + $nnnnnn;
     print '<br/>' . '<span style="color: #b86a06">И кстати, с текущей даты</span> ' . date("Y-m-d H:i:s") . '<br/>' . 'прошло ' . $result . 'секунд';
-
     ?>
 
     <?php
     //
     echo '<hr>', '<strong style="color: green">8 Zadacha</strong>', '<br/>';
+//1 Вариант задачи
     echo 'Текущая дата в формате час:минута:секунда ' . '<br/>' . date('h:i:s');
+
+//2 Вариант задачи
+/*  $t_h = date('h');
+    $t_m = date('i');
+    $t_s = date('s');
+    echo 'Текущая дата в формате час:минута:секунда ' . '<br/>' . $t_h .':'. $t_m .':'.$t_s;
+*/
     //
     echo '<hr>', '<strong style="color: green">9 Zadacha</strong>', '<br/>';
     $var = 1;
@@ -150,7 +153,6 @@
     ) {
         echo  'Меня зовут ' . SURNAME . ' ' . $f . '. ' . $j . '. ' . '<br/>' . 'Мне ' . AGE . ' лет.';
     }
-
     ?>
 </body>
 
