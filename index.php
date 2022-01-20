@@ -132,8 +132,8 @@
     $var -= 14;
     $var *= 5;
     $var /= 7;
-    $var++ . 1;
-    $var-- . 1;
+    $var++;
+    $var--;
     echo round($var, 2);
     //
     echo '<hr>', '<strong style="color: green">10 Zadacha</strong>', '<br/>';
